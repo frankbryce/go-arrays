@@ -13,4 +13,5 @@ QUESTIONS:
         you are making and put the package in there.  Otherwise, there should
         be a way to have a centralized package location.
 4) how do you run a test?
-   ans) 
+   ans) make a file *_test.go, and include a file func TestXxxx(*testing.T) or
+        func Test_xxxx(*testing.T), then execute "go test" in the same directory
